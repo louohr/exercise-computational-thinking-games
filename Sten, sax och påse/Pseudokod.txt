@@ -1,0 +1,37 @@
+Pseudokod - Sten, sax, påse
+
+Spelare_1_wins = 0
+Spelare_2_wins = 0
+Spelrundor = 0
+
+While
+Spelare_1_wins och Spelare_2_wins är mindre än 3 
+Öka antalet rundor med 1
+Visa rundor + spelade_rundor
+
+Fråga Spelare_1 för val (sten, papper, sax)
+Fråga Spelare_2 för val (sten, papper, sax)
+
+Om spelare_1 val = spelare2_val
+Visa “Oavgjort”
+
+Else if
+   Spelare_1 = “sten” och Spelare_2 är lika med “sax” eller om
+   Spelare_1 = “sax” och Spelare_2 är lika med “papper” eller om
+   Spelare_1 = “papper” och Spelare_2 = “sten”
+Visa “Spelare_1 vinner denna runda”
+Öka Spelare_1_wins med 1
+
+Else
+Visa “Spelare_2 vinner denna runda”
+Öka Spelare_2_wins med 1
+
+SLUT på loop
+
+If
+Om Spelare_1_wins = 3
+Visa “Spelare_1 vinner spelet!”
+
+Else if
+Om Spelare_2_wins = 3
+Visa “Spelare_2 vinner spelet!”

@@ -1,0 +1,13 @@
+Pseudokod - Fizzbuzz
+
+För nummer mellan 1 och 100
+Om nummer är delat med 3 och 5
+Visa "Fizzbuzz"
+
+Om nummer är delat med 3
+Visa "Fizz"
+
+Om nummer är delat med 5
+Visa "Buzz"
+Annars
+Visa nummer
